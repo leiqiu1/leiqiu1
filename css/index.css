@@ -1,0 +1,91 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+
+/* 第一页 */
+
+.page3 {
+    position: relative;
+    background-size: cover;
+}
+
+.page3 img {
+    position: absolute;
+}
+
+.page3 img:nth-of-type(1) {
+    /* 所有样式以REM为单位：把测出来的PX除以100即可 */
+    width: 4rem;
+    height: 5rem;
+    left: 0rem;
+    top: 0rem;
+}
+
+.page3 img:nth-of-type(2) {
+    width: 1.5rem;
+    height: 2rem;
+    left: 0rem;
+    top: 5rem;
+}
+
+.page3 img:nth-of-type(3) {
+    width: 1rem;
+    height: 2rem;
+    left: 1.5rem;
+    top: 5rem;
+}
+
+.page3 img:nth-of-type(4) {
+    width: 1.5rem;
+    height: 2rem;
+    left: 2.5rem;
+    top: 5rem;
+}
+
+.page3 img:nth-of-type(5) {
+    width: 8rem;
+    height: 6rem;
+    top: 0rem;
+}
+
+.page3 img:nth-of-type(6) {
+    width: 3.5rem;
+    height: 2rem;
+    top: 3rem;
+}
+
+
+/* 
+.page4 {
+    background-size: cover;
+}
+
+.page4 img {
+    position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+    width: .56rem;
+    height: 1.86rem;
+    left: 1.15rem;
+    top: .25rem;
+}
+
+.page4 img:nth-of-type(2) {
+    width: 2.17rem;
+    height: 3.57rem;
+    top: .2rem;
+    right: 0;
+}
+
+.page4 img:nth-of-type(3) {
+    width: 3.22rem;
+    height: 3rem;
+    left: .2rem;
+    bottom: 1rem;
+} */
